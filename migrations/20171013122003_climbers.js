@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
 			table.increments()
 			table.string('name')
 			table.string('link')
+			table.integer('votes')
 		})
 	])
 };
