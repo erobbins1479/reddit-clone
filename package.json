@@ -1,0 +1,27 @@
+{
+  "name": "reddit-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrobbinsd/reddit-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrobbinsd/reddit-clone/issues"
+  },
+  "homepage": "https://github.com/jrobbinsd/reddit-clone#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  }
+}
